@@ -1,0 +1,33 @@
+{
+  "name": "ems2021",
+  "version": "1.0.0",
+  "description": "Employee Management System Backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profalphon"
+  },
+  "author": "Obi, Paul, Egwali, Ithive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/profalphon/issues"
+  },
+  "homepage": "https://github.com/profalphon#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.8",
+    "morgan": "^1.10.0"
+  }
+}
